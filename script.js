@@ -74,3 +74,8 @@ for (let i = 0; i < 300; i++) {
   star.style.animationDelay = Math.random() * 4 + "s";
   starContainer.appendChild(star);
 }
+
+const insta = document.getElementById("instagram-icon");
+insta.addEventListener("click", () => {
+  window.open("https://www.instagram.com/manhal.alothman/?hl=bg", "_blank");
+});
